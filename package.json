@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/erpriliano"
   },
-  "version": "0.2.0",
+  "version": "0.4.0",
   "description": "The repo will serve any components library for future use. For now, it serves as my learning progress towards more advanced method.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -13,6 +13,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c",
+    "publish": "npm publish",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -45,6 +46,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
+    "node-sass": "^7.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "rollup": "^2.72.0",
